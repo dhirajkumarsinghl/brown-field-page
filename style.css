@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #554a46;
+  font-family: Tahoma, sans-serif;
+  font-size: 13px;
+  line-height: 1.7em;
+  background-color: #090100;
+  background-image: url(./img-folder/tooplate_body.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.head {
+  margin-left: 10rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16rem;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home,
+.about,
+.blog,
+.gallery,
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 7rem;
+  height: 2.5rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 2px 1px 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.home {
+  font-size: 1rem;
+  box-shadow: 2px 1px 3px;
+  background-color: rgb(235, 235, 235);
+}
+
+.hme {
+  color: #090100;
+}
+
+.about-us,
+.blog-info,
+.gallery-info,
+.contact-info {
+  font-size: 16px;
+  color: white;
+}
+
+.content-1 {
+  color: white;
+  font-size: 1rem;
+  margin-left: 12rem;
+  position: relative;
+  background: rgba(255, 255, 255, 0.2);
+  width: 73%;
+  height: 20rem;
+
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 12px;
+  box-shadow: 3px 3px rgb(68, 68, 68);
+}
+
+.heading {
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
+.inner-content {
+  margin-left: 3rem;
+}
+
+.btn {
+  width: 7rem;
+  height: 2.5rem;
+  margin-left: 3rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.template {
+  background-color: white;
+  margin-left: 12rem;
+  width: 73%;
+  border-radius: 12px;
+  height: 40rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.text {
+  width: 25rem;
+}
+
+.template-info {
+  padding-left: 2rem;
+  padding-top: 3rem;
+}
+
+.name {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  margin-left: 2rem;
+}
+
+.btn-box {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.send,
+.reset {
+  padding: 0.4rem 1rem;
+  border-radius: 10px;
+}
+
+.content-2 {
+  width: 50%;
+}
+
+.area {
+  height: 2rem;
+  background-color: #e8e8e8;
+  border: 1px solid rgb(127, 126, 126);
+}
+
+.text {
+  background-color: gainsboro;
+}
+
+.right {
+  width: 50%;
+  margin-top: 2.5rem;
+  /* margin-left: 29rem;
+  margin-top: -27.5rem; */
+}
+
+.con {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.line {
+  width: 95%;
+  border: 1px dashed rgb(209, 206, 206);
+}
+
+.design,
+.support {
+  margin-left: 2rem;
+}
+
+.image-1 {
+  height: 3rem;
+  width: 3rem;
+  margin-left: 2rem;
+}
+
+.sub-para {
+  margin-left: 6rem;
+  margin-top: -3rem;
+}
+
+.sub-btn {
+  margin-left: 2rem;
+  width: 7rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1px 1px 1px 1px grey;
+}
+
+.content-3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.sub-content-1 {
+  margin-top: 2rem;
+}
+
+.line-2 {
+  margin-left: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 277%;
+  border: 1px dashed rgb(209, 206, 206);
+}
+
+.sub-btn {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(145, 67, 67);
+  cursor: pointer;
+}
+
+.copyright {
+  margin-left: 39%;
+  color: rgb(99, 72, 99);
+}
+
+/* hovers */
+.about:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.about-us:hover {
+  color: #1a0806;
+}
+
+.blog:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.blog-info:hover {
+  color: #1a0806;
+}
+
+.gallery:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.gallery-info:hover {
+  color: #1a0806;
+}
+
+.contact:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.contact-info:hover {
+  color: #1a0806;
+}
+
+.sub-btn:hover {
+  color: rgb(199, 43, 43);
+}
